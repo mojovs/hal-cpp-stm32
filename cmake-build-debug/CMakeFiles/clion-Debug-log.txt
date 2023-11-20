@@ -1,0 +1,5 @@
+"G:\Program\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=G:/Program/JetBrains/CLion 2022.3.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S E:\code\c\stm32\clion\template-cpp -B E:\code\c\stm32\clion\template-cpp\cmake-build-debug
+-- Minimal optimization, debug info included
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: E:/code/c/stm32/clion/template-cpp/cmake-build-debug
