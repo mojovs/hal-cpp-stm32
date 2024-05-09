@@ -35,6 +35,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx_hal.h"
 
+
 /** @addtogroup STM32F4xx_HAL_Driver
   * @{
   */
@@ -222,6 +223,8 @@ __weak void HAL_MspInit(void)
             the HAL_MspInit could be implemented in the user file
    */
 }
+
+
 
 /**
   * @brief  DeInitializes the MSP.
