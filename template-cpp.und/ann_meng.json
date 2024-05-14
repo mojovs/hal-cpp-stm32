@@ -1,0 +1,44 @@
+{
+    "ents": {
+        "@l./Core/Inc/main.h": [
+            {
+                "author": "meng",
+                "body": "测试\n",
+                "created": "2023-11-21T14:24:19.470Z",
+                "lastmodified": "Tue Nov 21 14:24:24 2023 GMT",
+                "line": "54",
+                "lineContext": "/* USER CODE BEGIN EFP */",
+                "machineid": "8B3954F63C80C11D5693A6709B2E12E330EC9A"
+            }
+        ],
+        "@lError_Handler@kError_Handler": [
+            {
+                "author": "meng",
+                "body": "",
+                "created": "2023-11-21T14:24:14.912Z",
+                "lastmodified": "Tue Nov 21 14:24:14 2023 GMT",
+                "line": "-1",
+                "lineContext": "",
+                "machineid": "8B3954F63C80C11D5693A6709B2E12E330EC9A"
+            },
+            {
+                "author": "meng",
+                "body": "",
+                "created": "2023-11-21T14:24:13.572Z",
+                "lastmodified": "Tue Nov 21 14:24:13 2023 GMT",
+                "line": "-1",
+                "lineContext": "",
+                "machineid": "8B3954F63C80C11D5693A6709B2E12E330EC9A"
+            },
+            {
+                "author": "meng",
+                "body": "",
+                "created": "2023-11-21T14:23:52.722Z",
+                "lastmodified": "Tue Nov 21 14:23:52 2023 GMT",
+                "line": "-1",
+                "lineContext": "",
+                "machineid": "8B3954F63C80C11D5693A6709B2E12E330EC9A"
+            }
+        ]
+    }
+}
