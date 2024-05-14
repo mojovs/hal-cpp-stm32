@@ -2,12 +2,10 @@
 // Created by meng on 2023/11/18.
 //
 #include "key.h"
-extern "C" {
 #include "sys.h"
 #include "delay.h"
-}
 
-void Key::Key_Init(void) {
+void Key_Init(void) {
     //开启时钟
     __HAL_RCC_GPIOA_CLK_ENABLE();
     __HAL_RCC_GPIOC_CLK_ENABLE();
@@ -33,7 +31,7 @@ void Key::Key_Init(void) {
     HAL_GPIO_Init(GPIOH, &gpioInitTypeDef);
 }
 
-Key::KEY_ID Key::Key_Scan(Key::KEY_MODE mode) {
+KEY_ID Key_Scan(KEY_MODE mode) {
     static u8 last_key_down = 0;   // 记录上次按键按下没
     if(mode == KEY_MODE_CONTINIOUS) last_key_down=0; //连续模式
 
@@ -50,17 +48,8 @@ Key::KEY_ID Key::Key_Scan(Key::KEY_MODE mode) {
         } else if (KEY_VAL_WK == 1) {
             return KEY_ID_WK;
         }
-    }else if(KEY_VAL_0 == 1 || KEY_VAL_1 == 1 || KEY_VAL_2 == 1 || KEY_VAL_WK == 0){
+    }else if(KEY_VAL_0 == 1 && KEY_VAL_1 == 1 && KEY_VAL_2 == 1 && KEY_VAL_WK == 0){
         last_key_down=0;
     }
     return KEY_ID_NONE;
-}
-
-Key::Key() {
-    Key_Init();
-
-}
-
-Key::~Key() {
-
 }

@@ -51,24 +51,29 @@ else ()
     message(STATUS "Minimal optimization, debug info included")
     add_compile_options(-Og -g)
 endif ()
-# 头文件
-include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include
-        SYSTEM/sys
-        SYSTEM/delay
-        SYSTEM/sysclock
-        SYSTEM/usart
-        User
-)
+# 函数 递归添加目录
+function(include_sub_directories_r root_dir)
+    if(IS_DIRECTORY ${root_dir})
+        message("include dir:" ${root_dir})
+        include_directories(${root_dir})
+    endif ()
+    file(GLOB ALL_SUB RELATIVE ${root_dir} ${root_dir}/*)
+    foreach (sub ${ALL_SUB})
+        if(IS_DIRECTORY ${root_dir}/${SUB})
+            include_sub_directories_r(${root_dir}/${sub})
+        endif ()
+    endforeach ()
+endfunction()
+include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include)
+include_sub_directories_r("${CMAKE_SOURCE_DIR}/User/")
 # 预定义
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -DCLION)
 # 源文件
 file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*"
-        "SYSTEM/sys/*.*"
-        "SYSTEM/delay/*.*"
-        "SYSTEM/sysclock/*.*"
-        "User/*.*"
-        "SYSTEM/usart/*.*"
-       )
+        "User/SYSTEM/*.*"
+        "USER/*.*"
+        )
+set(SOURCES "${SOURCES}")
 # 链接脚本
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F429IGTX_FLASH.ld)
 add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map)
@@ -85,3 +90,4 @@ add_custom_command(TARGET ${PROJECT_NAME}.elf POST_BUILD
         COMMAND ${CMAKE_OBJCOPY} -Obinary $<TARGET_FILE:${PROJECT_NAME}.elf> ${BIN_FILE}
         COMMENT "Building ${HEX_FILE}
 Building ${BIN_FILE}")
+

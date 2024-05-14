@@ -7,9 +7,9 @@
 #include "sys.h"
 #include "stm32f4xx_hal_uart.h"
 
-#define SEND_SIZE 10
-#define RECV_SIZE 10
-#define USART_REC_LEN 30
+#define SEND_SIZE 200
+#define RECV_SIZE 200
+#define USART_REC_LEN 200
 //回调函数
 void USART2_IRQHandler(void);
 void Usart2_Send(unsigned char *pdata, size_t size);

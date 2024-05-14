@@ -84,6 +84,7 @@
 #define HAL_LPTIM_MODULE_ENABLED
 #define HAL_MMC_MODULE_ENABLED
 
+
 /* ########################## HSE/HSI Values adaptation ##################### */
 /**
   * @brief Adjust the value of External High Speed oscillator (HSE) used in your application.

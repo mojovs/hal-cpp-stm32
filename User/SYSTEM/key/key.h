@@ -5,11 +5,6 @@
 #ifndef TEMPLATE_KEY_H
 #define TEMPLATE_KEY_H
 
-
-class Key {
-public:
-    Key();
-    ~Key();
 //读取到按键值
 #define KEY_VAL_WK HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_0)
 #define KEY_VAL_2 HAL_GPIO_ReadPin(GPIOC,GPIO_PIN_13)
@@ -40,6 +35,5 @@ public:
  * @return 按键值
  */
     KEY_ID Key_Scan(KEY_MODE mode);
-};
 
 #endif //TEMPLATE_KEY_H

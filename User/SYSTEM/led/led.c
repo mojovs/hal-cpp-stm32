@@ -3,11 +3,9 @@
 //
 
 #include "led.h"
-extern "C" {
 #include "sys.h"
-}
 
-void Led::Led_Init(void) {
+void Led_Init(void) {
     //使能时钟
     __HAL_RCC_GPIOB_CLK_ENABLE();
     GPIO_InitTypeDef gpioInitType;
@@ -23,10 +21,3 @@ void Led::Led_Init(void) {
     HAL_GPIO_WritePin(GPIOB,GPIO_PIN_1,GPIO_PIN_SET);	//PB1置1
 }
 
-Led::Led() {
-    Led_Init();
-}
-
-Led::~Led() {
-
-}

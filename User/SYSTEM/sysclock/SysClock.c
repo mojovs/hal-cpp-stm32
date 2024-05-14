@@ -4,7 +4,7 @@
 
 #include "SysClock.h"
 
-void SysClock::Stm32_Clock_Init(u32 plln, u32 pllm, u32 pllp, u32 pllq) {
+void Stm32_Clock_Init(u32 plln, u32 pllm, u32 pllp, u32 pllq) {
     HAL_StatusTypeDef ret=HAL_OK;
     RCC_OscInitTypeDef rccOscInitType;
     RCC_ClkInitTypeDef rccClkInitType;

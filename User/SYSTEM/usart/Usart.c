@@ -18,7 +18,7 @@ void USART2_IRQHandler(void) {
     HAL_UART_IRQHandler(&uart2_handle);
     //再重新开启中断
     //等待串口状态准备好
-    while(HAL_USART_GetState(&uart2_handle)!=HAL_UART_STATE_READY){
+    while(HAL_UART_GetState(&uart2_handle)!=HAL_UART_STATE_READY){
         timout++;
         if(timout>maxDelay) break;
     }
