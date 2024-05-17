@@ -72,7 +72,7 @@ add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -DCLION)
 file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*"
         "User/SYSTEM/*.*"
         "USER/*.*"
-        )
+)
 set(SOURCES "${SOURCES}")
 # 链接脚本
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F429IGTX_FLASH.ld)

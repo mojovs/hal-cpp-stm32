@@ -783,6 +783,22 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
  .data          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
  .bss           0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
+ .text.HAL_IWDG_Init
+                0x00000000       0x58 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
+ .text.HAL_IWDG_Refresh
+                0x00000000        0xc CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
+ .debug_info    0x00000000      0x20c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
+ .debug_abbrev  0x00000000      0x118 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
+ .debug_loc     0x00000000       0x86 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
+ .debug_aranges
+                0x00000000       0x28 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
+ .debug_ranges  0x00000000       0x18 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
+ .debug_line    0x00000000      0x296 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
+ .debug_str     0x00000000      0x2c0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
+ .comment       0x00000000       0x4a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
+ .debug_frame   0x00000000       0x44 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
+ .ARM.attributes
+                0x00000000       0x2e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
  .text          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.obj
  .data          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.obj
  .bss           0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_lptim.c.obj
@@ -1167,27 +1183,311 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .data          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .bss           0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_info    0x00000000       0x6b CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_abbrev  0x00000000       0x26 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_aranges
+ .text.TIM_OC1_SetConfig
+                0x00000000       0x68 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_OC3_SetConfig
+                0x00000000       0x70 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_OC4_SetConfig
+                0x00000000       0x50 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_TI1_ConfigInputStage
+                0x00000000       0x24 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_TI2_SetConfig
+                0x00000000       0x36 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_TI2_ConfigInputStage
+                0x00000000       0x26 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_TI3_SetConfig
+                0x00000000       0x36 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_TI4_SetConfig
+                0x00000000       0x36 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_ITRx_SetConfig
+                0x00000000       0x10 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Base_MspInit
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Base_MspDeInit
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Base_DeInit
+                0x00000000       0x5e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Base_Start
+                0x00000000       0x7c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Base_Stop
+                0x00000000       0x28 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Base_Stop_IT
+                0x00000000       0x32 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Base_Start_DMA
+                0x00000000       0xd4 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Base_Stop_DMA
+                0x00000000       0x3c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_MspInit
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_MspDeInit
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_DeInit
+                0x00000000       0x5e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_MspInit
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_MspDeInit
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_DeInit
+                0x00000000       0x5e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_MspInit
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_MspDeInit
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_DeInit
+                0x00000000       0x5e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_MspInit
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_MspDeInit
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_DeInit
+                0x00000000       0x4e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_MspInit
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_MspDeInit
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_DeInit
+                0x00000000       0x4e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_DMABurst_MultiWriteStart
+                0x00000000      0x1a8 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_DMABurst_WriteStart
+                0x00000000       0x16 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_DMABurst_WriteStop
+                0x00000000       0x84 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_DMABurst_MultiReadStart
+                0x00000000      0x1a8 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_DMABurst_ReadStart
+                0x00000000       0x16 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_DMABurst_ReadStop
+                0x00000000       0x84 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_GenerateEvent
+                0x00000000       0x2a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_ConfigTI1Input
+                0x00000000       0x10 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_ReadCapturedValue
+                0x00000000       0x32 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_PeriodElapsedCallback
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_DMAPeriodElapsedCplt
+                0x00000000       0x16 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_PeriodElapsedHalfCpltCallback
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_DMAPeriodElapsedHalfCplt
+                0x00000000        0xa CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_DMACaptureCplt
+                0x00000000       0x80 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_CaptureHalfCpltCallback
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_DMACaptureHalfCplt
+                0x00000000       0x3e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_DMADelayPulseCplt
+                0x00000000       0x70 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_PulseFinishedHalfCpltCallback
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_DMADelayPulseHalfCplt
+                0x00000000       0x3e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_DMATriggerCplt
+                0x00000000       0x16 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_TriggerHalfCpltCallback
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_DMATriggerHalfCplt
+                0x00000000        0xa CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_ErrorCallback
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_DMAError
+                0x00000000       0x5c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Base_GetState
+                0x00000000        0x6 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_GetState
+                0x00000000        0x6 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_GetState
+                0x00000000        0x6 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_GetState
+                0x00000000        0x6 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_GetState
+                0x00000000        0x6 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_GetState
+                0x00000000        0x6 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_GetActiveChannel
+                0x00000000        0x4 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_GetChannelState
+                0x00000000       0x2a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_DMABurstState
+                0x00000000        0x6 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_Init
+                0x00000000       0x58 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_Init
+                0x00000000       0x58 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_Init
+                0x00000000       0x58 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_Init
+                0x00000000       0x5c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_Init
+                0x00000000       0xb8 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_OC2_SetConfig
+                0x00000000       0x70 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_ConfigChannel
+                0x00000000       0x5e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_ConfigChannel
+                0x00000000       0xdc CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_TI1_SetConfig
+                0x00000000       0x7c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_ConfigChannel
+                0x00000000       0xc4 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_ConfigChannel
+                0x00000000       0xfa CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_ETR_SetConfig
                 0x00000000       0x18 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_line    0x00000000       0x1d CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_str     0x00000000      0x1e8 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .comment       0x00000000       0x4a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .ARM.attributes
-                0x00000000       0x2e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_ConfigOCrefClear
+                0x00000000       0xfa CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_ConfigClockSource
+                0x00000000       0xfe CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_SlaveTimer_SetConfig
+                0x00000000       0xb8 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_SlaveConfigSynchro
+                0x00000000       0x52 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_SlaveConfigSynchro_IT
+                0x00000000       0x52 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.TIM_CCxChannelCmd
+                0x00000000       0x1e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_Start
+                0x00000000      0x104 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_Stop
+                0x00000000       0x8c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_Start_IT
+                0x00000000      0x14c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_Stop_IT
+                0x00000000       0xdc CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_Start_DMA
+                0x00000000      0x26c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OC_Stop_DMA
+                0x00000000       0xf4 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_Start
+                0x00000000      0x104 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_Stop
+                0x00000000       0x8c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_Start_IT
+                0x00000000      0x14c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_Stop_IT
+                0x00000000       0xdc CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_Start_DMA
+                0x00000000      0x26c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_PWM_Stop_DMA
+                0x00000000       0xf4 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_Start
+                0x00000000      0x130 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_Stop
+                0x00000000       0x80 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_Start_IT
+                0x00000000      0x174 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_Stop_IT
+                0x00000000       0xd0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_Start_DMA
+                0x00000000      0x258 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_IC_Stop_DMA
+                0x00000000       0xe6 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_Start
+                0x00000000       0x80 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_Stop
+                0x00000000       0x80 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_Start_IT
+                0x00000000       0x98 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_OnePulse_Stop_IT
+                0x00000000       0x94 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_Start
+                0x00000000       0xcc CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_Stop
+                0x00000000       0xc4 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_Start_IT
+                0x00000000       0xf6 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_Stop_IT
+                0x00000000       0xee CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_Start_DMA
+                0x00000000      0x23c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .text.HAL_TIM_Encoder_Stop_DMA
+                0x00000000      0x106 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .text          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .data          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .bss           0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_info    0x00000000       0x6b CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_abbrev  0x00000000       0x26 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_line    0x00000000       0x1d CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_str     0x00000000      0x1eb CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .comment       0x00000000       0x4a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .ARM.attributes
-                0x00000000       0x2e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.TIM_CCxNChannelCmd
+                0x00000000       0x1e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.TIM_DMAErrorCCxN
+                0x00000000       0x44 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.TIM_DMADelayPulseNCplt
+                0x00000000       0x70 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_MspInit
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_Init
+                0x00000000       0xd4 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_MspDeInit
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_DeInit
+                0x00000000       0x4e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_Start
+                0x00000000       0xbc CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_Stop
+                0x00000000       0x42 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_Start_IT
+                0x00000000       0xc8 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_Stop_IT
+                0x00000000       0x4c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_Start_DMA
+                0x00000000       0xf0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_Stop_DMA
+                0x00000000       0x4a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OCN_Start
+                0x00000000       0xf8 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OCN_Stop
+                0x00000000       0x76 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OCN_Start_IT
+                0x00000000      0x130 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OCN_Stop_IT
+                0x00000000       0xc2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OCN_Start_DMA
+                0x00000000      0x214 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OCN_Stop_DMA
+                0x00000000       0xc0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_PWMN_Start
+                0x00000000       0xf8 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_PWMN_Stop
+                0x00000000       0x76 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_PWMN_Start_IT
+                0x00000000      0x130 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_PWMN_Stop_IT
+                0x00000000       0xc2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_PWMN_Start_DMA
+                0x00000000      0x214 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_PWMN_Stop_DMA
+                0x00000000       0xc0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OnePulseN_Start
+                0x00000000       0x7a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OnePulseN_Stop
+                0x00000000       0x72 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OnePulseN_Start_IT
+                0x00000000       0x8e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_OnePulseN_Stop_IT
+                0x00000000       0x86 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_ConfigCommutEvent
+                0x00000000       0x70 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_ConfigCommutEvent_IT
+                0x00000000       0x70 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_ConfigCommutEvent_DMA
+                0x00000000       0x90 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_MasterConfigSynchronization
+                0x00000000       0x8c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_ConfigBreakDeadTime
+                0x00000000       0x52 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_RemapConfig
+                0x00000000       0x20 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.TIMEx_DMACommutationCplt
+                0x00000000       0x10 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_CommutHalfCpltCallback
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.TIMEx_DMACommutationHalfCplt
+                0x00000000       0x10 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_HallSensor_GetState
+                0x00000000        0x6 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .text.HAL_TIMEx_GetChannelNState
+                0x00000000       0x2a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .text          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .data          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .bss           0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
@@ -1389,15 +1689,12 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
  .data          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
  .bss           0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
- .debug_info    0x00000000       0x6b CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
- .debug_abbrev  0x00000000       0x26 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
- .debug_aranges
-                0x00000000       0x18 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
- .debug_line    0x00000000       0x1d CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
- .debug_str     0x00000000      0x1e9 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
- .comment       0x00000000       0x4a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
- .ARM.attributes
-                0x00000000       0x2e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
+ .text.HAL_WWDG_MspInit
+                0x00000000        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
+ .text.HAL_WWDG_Init
+                0x00000000       0x2a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
+ .text.HAL_WWDG_Refresh
+                0x00000000        0xa CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
  .text          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
  .data          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
  .bss           0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
@@ -1623,12 +1920,47 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
  .data          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
  .bss           0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
+ .text.iwdg_init
+                0x00000000       0x24 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
+ .text.iwdg_feed
+                0x00000000       0x10 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
+ .bss.iwdgHandleTypeDef
+                0x00000000        0xc CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
+ .debug_info    0x00000000      0x22d CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
+ .debug_abbrev  0x00000000      0x128 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
+ .debug_loc     0x00000000       0x4a CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
+ .debug_aranges
+                0x00000000       0x28 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
+ .debug_ranges  0x00000000       0x18 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
+ .debug_line    0x00000000      0x22e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
+ .debug_str     0x00000000      0x2a0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
+ .comment       0x00000000       0x4a CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
+ .debug_frame   0x00000000       0x40 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
+ .ARM.attributes
+                0x00000000       0x2e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
+ .text          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
+ .data          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
+ .text.wwdg_init
+                0x00000000       0x24 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
+ .text.wwdg_test
+                0x00000000       0x24 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
+ .text.HAL_WWDG_MspInit
+                0x00000000       0x34 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
+ .text.HAL_WWDG_WakeupCallback
+                0x00000000       0x24 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
+ .data.WWDG_CNT
+                0x00000000        0x1 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
  .text          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
  .data          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
  .bss           0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
  .text          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
  .data          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
  .bss           0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
+ .text.Key_Scan
+                0x00000000       0xf0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
+ .bss.last_key_down.0
+                0x00000000        0x1 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
  .text          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
  .data          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
  .bss           0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
@@ -1658,6 +1990,9 @@ Discarded input sections
  .debug_frame   0x00000000       0x34 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sysclock/SysClock.c.obj
  .ARM.attributes
                 0x00000000       0x2e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sysclock/SysClock.c.obj
+ .text          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
+ .data          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
  .text          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
  .data          0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
  .bss           0x00000000        0x0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
@@ -1963,11 +2298,13 @@ LOAD CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_
 LOAD CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_utils.c.obj
 LOAD CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
 LOAD CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
+LOAD CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
 LOAD CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
 LOAD CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
 LOAD CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
 LOAD CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
 LOAD CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sysclock/SysClock.c.obj
+LOAD CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
 LOAD CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
 LOAD CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
 LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libstdc++.a
@@ -1990,7 +2327,7 @@ LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/
                 0x08000000                g_pfnVectors
                 0x080001ac                . = ALIGN (0x4)
 
-.text           0x080001ac     0x2d74
+.text           0x080001ac     0x2ff8
                 0x080001ac                . = ALIGN (0x4)
  *(.text)
  .text          0x080001ac       0x40 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
@@ -2129,7 +2466,6 @@ LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/
                 0x08001584                DMA1_Stream6_IRQHandler
                 0x08001584                DMA1_Stream1_IRQHandler
                 0x08001584                UART4_IRQHandler
-                0x08001584                TIM3_IRQHandler
                 0x08001584                RCC_IRQHandler
                 0x08001584                TIM8_BRK_TIM12_IRQHandler
                 0x08001584                Default_Handler
@@ -2152,7 +2488,6 @@ LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/
                 0x08001584                EXTI4_IRQHandler
                 0x08001584                ETH_IRQHandler
                 0x08001584                OTG_HS_EP1_OUT_IRQHandler
-                0x08001584                WWDG_IRQHandler
                 0x08001584                SPI6_IRQHandler
                 0x08001584                TIM2_IRQHandler
                 0x08001584                OTG_FS_WKUP_IRQHandler
@@ -2223,256 +2558,296 @@ LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/
  .text.HAL_GPIO_EXTI_IRQHandler
                 0x080019f8       0x1c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
                 0x080019f8                HAL_GPIO_EXTI_IRQHandler
- .text.HAL_IWDG_Init
-                0x08001a14       0x58 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
-                0x08001a14                HAL_IWDG_Init
- .text.HAL_IWDG_Refresh
-                0x08001a6c        0xc CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
-                0x08001a6c                HAL_IWDG_Refresh
  .text.HAL_PWREx_EnableOverDrive
-                0x08001a78       0x7c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
-                0x08001a78                HAL_PWREx_EnableOverDrive
+                0x08001a14       0x7c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+                0x08001a14                HAL_PWREx_EnableOverDrive
  .text.HAL_RCC_OscConfig
-                0x08001af4      0x3f8 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08001af4                HAL_RCC_OscConfig
+                0x08001a90      0x3f8 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08001a90                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08001eec       0xa4 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08001eec                HAL_RCC_GetSysClockFreq
+                0x08001e88       0xa4 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08001e88                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x08001f90      0x160 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x08001f90                HAL_RCC_ClockConfig
+                0x08001f2c      0x160 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08001f2c                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x080020f0        0xc CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x080020f0                HAL_RCC_GetHCLKFreq
+                0x0800208c        0xc CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0800208c                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x080020fc       0x20 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x080020fc                HAL_RCC_GetPCLK1Freq
+                0x08002098       0x20 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x08002098                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x0800211c       0x20 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0800211c                HAL_RCC_GetPCLK2Freq
+                0x080020b8       0x20 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x080020b8                HAL_RCC_GetPCLK2Freq
+ .text.HAL_TIM_Base_Start_IT
+                0x080020d8       0x88 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x080020d8                HAL_TIM_Base_Start_IT
+ .text.HAL_TIM_OC_DelayElapsedCallback
+                0x08002160        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08002160                HAL_TIM_OC_DelayElapsedCallback
+ .text.HAL_TIM_IC_CaptureCallback
+                0x08002162        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08002162                HAL_TIM_IC_CaptureCallback
+ .text.HAL_TIM_PWM_PulseFinishedCallback
+                0x08002164        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08002164                HAL_TIM_PWM_PulseFinishedCallback
+ .text.HAL_TIM_TriggerCallback
+                0x08002166        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08002166                HAL_TIM_TriggerCallback
+ .text.HAL_TIM_IRQHandler
+                0x08002168      0x17a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x08002168                HAL_TIM_IRQHandler
+ *fill*         0x080022e2        0x2 
+ .text.TIM_Base_SetConfig
+                0x080022e4       0xc8 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x080022e4                TIM_Base_SetConfig
+ .text.HAL_TIM_Base_Init
+                0x080023ac       0x58 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x080023ac                HAL_TIM_Base_Init
+ .text.HAL_TIMEx_CommutCallback
+                0x08002404        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x08002404                HAL_TIMEx_CommutCallback
+ .text.HAL_TIMEx_BreakCallback
+                0x08002406        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x08002406                HAL_TIMEx_BreakCallback
  .text.UART_EndRxTransfer
-                0x0800213c       0x5c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08002408       0x5c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.UART_Transmit_IT
-                0x08002198       0x60 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08002464       0x60 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.UART_SetConfig
-                0x080021f8      0x110 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x080024c4      0x110 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.HAL_UART_MspInit
-                0x08002308        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x08002308                HAL_UART_MspInit
+                0x080025d4        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x080025d4                HAL_UART_MspInit
  .text.HAL_UART_Init
-                0x0800230a       0x5e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0800230a                HAL_UART_Init
+                0x080025d6       0x5e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x080025d6                HAL_UART_Init
  .text.HAL_UART_TxCpltCallback
-                0x08002368        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x08002368                HAL_UART_TxCpltCallback
+                0x08002634        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08002634                HAL_UART_TxCpltCallback
  .text.UART_EndTransmit_IT
-                0x0800236a       0x1a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08002636       0x1a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.HAL_UART_ErrorCallback
-                0x08002384        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x08002384                HAL_UART_ErrorCallback
+                0x08002650        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08002650                HAL_UART_ErrorCallback
  .text.UART_DMAAbortOnError
-                0x08002386       0x10 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08002652       0x10 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.HAL_UARTEx_RxEventCallback
-                0x08002396        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x08002396                HAL_UARTEx_RxEventCallback
+                0x08002662        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08002662                HAL_UARTEx_RxEventCallback
  .text.UART_Receive_IT
-                0x08002398       0xe2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- *fill*         0x0800247a        0x2 
+                0x08002664       0xe2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ *fill*         0x08002746        0x2 
  .text.HAL_UART_IRQHandler
-                0x0800247c      0x280 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0800247c                HAL_UART_IRQHandler
+                0x08002748      0x280 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08002748                HAL_UART_IRQHandler
  .text.HAL_UART_GetState
-                0x080026fc        0xc CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x080026fc                HAL_UART_GetState
+                0x080029c8        0xc CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x080029c8                HAL_UART_GetState
  .text.UART_Start_Receive_IT
-                0x08002708       0x3a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x08002708                UART_Start_Receive_IT
+                0x080029d4       0x3a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x080029d4                UART_Start_Receive_IT
  .text.HAL_UART_Receive_IT
-                0x08002742       0x38 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x08002742                HAL_UART_Receive_IT
+                0x08002a0e       0x38 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x08002a0e                HAL_UART_Receive_IT
+ .text.HAL_WWDG_EarlyWakeupCallback
+                0x08002a46        0x2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
+                0x08002a46                HAL_WWDG_EarlyWakeupCallback
+ .text.HAL_WWDG_IRQHandler
+                0x08002a48       0x22 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
+                0x08002a48                HAL_WWDG_IRQHandler
  .text.EXTI0_IRQHandler
-                0x0800277a        0xa CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
-                0x0800277a                EXTI0_IRQHandler
+                0x08002a6a        0xa CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
+                0x08002a6a                EXTI0_IRQHandler
  .text.EXTI2_IRQHandler
-                0x08002784        0xa CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
-                0x08002784                EXTI2_IRQHandler
+                0x08002a74        0xa CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
+                0x08002a74                EXTI2_IRQHandler
  .text.EXTI3_IRQHandler
-                0x0800278e        0xa CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
-                0x0800278e                EXTI3_IRQHandler
+                0x08002a7e        0xa CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
+                0x08002a7e                EXTI3_IRQHandler
  .text.EXTI15_10_IRQHandler
-                0x08002798        0xc CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
-                0x08002798                EXTI15_10_IRQHandler
+                0x08002a88        0xc CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
+                0x08002a88                EXTI15_10_IRQHandler
  .text.HAL_GPIO_EXTI_Callback
-                0x080027a4       0xc0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
-                0x080027a4                HAL_GPIO_EXTI_Callback
- .text.iwdg_init
-                0x08002864       0x24 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
-                0x08002864                iwdg_init
- .text.iwdg_feed
-                0x08002888       0x10 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
-                0x08002888                iwdg_feed
+                0x08002a94       0xc0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
+                0x08002a94                HAL_GPIO_EXTI_Callback
+ .text.WWDG_IRQHandler
+                0x08002b54       0x10 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
+                0x08002b54                WWDG_IRQHandler
  .text.delay_init
-                0x08002898       0x14 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
-                0x08002898                delay_init
+                0x08002b64       0x14 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
+                0x08002b64                delay_init
  .text.delay_us
-                0x080028ac       0x3c CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
-                0x080028ac                delay_us
+                0x08002b78       0x3c CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
+                0x08002b78                delay_us
  .text.delay_ms
-                0x080028e8       0x18 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
-                0x080028e8                delay_ms
+                0x08002bb4       0x18 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
+                0x08002bb4                delay_ms
  .text.Key_Init
-                0x08002900       0x90 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
-                0x08002900                Key_Init
- .text.Key_Scan
-                0x08002990       0xf0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
-                0x08002990                Key_Scan
+                0x08002bcc       0x90 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
+                0x08002bcc                Key_Init
  .text.Led_Init
-                0x08002a80       0x54 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
-                0x08002a80                Led_Init
+                0x08002c5c       0x54 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
+                0x08002c5c                Led_Init
  .text.Stm32_Clock_Init
-                0x08002ad4       0x80 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
-                0x08002ad4                Stm32_Clock_Init
+                0x08002cb0       0x80 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
+                0x08002cb0                Stm32_Clock_Init
+ .text.timer3_init
+                0x08002d30       0x28 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
+                0x08002d30                timer3_init
+ .text.timer3_test
+                0x08002d58       0x2c CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
+                0x08002d58                timer3_test
+ .text.HAL_TIM_Base_MspInit
+                0x08002d84       0x44 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
+                0x08002d84                HAL_TIM_Base_MspInit
+ .text.TIM3_IRQHandler
+                0x08002dc8       0x10 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
+                0x08002dc8                TIM3_IRQHandler
+ .text.HAL_TIM_PeriodElapsedCallback
+                0x08002dd8       0x24 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
+                0x08002dd8                HAL_TIM_PeriodElapsedCallback
  .text.USART2_IRQHandler
-                0x08002b54       0x40 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
-                0x08002b54                USART2_IRQHandler
+                0x08002dfc       0x40 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+                0x08002dfc                USART2_IRQHandler
  .text.HAL_UART_RxCpltCallback
-                0x08002b94       0x78 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
-                0x08002b94                HAL_UART_RxCpltCallback
+                0x08002e3c       0x78 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+                0x08002e3c                HAL_UART_RxCpltCallback
  .text.Init_Usart2
-                0x08002c0c       0x2c CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
-                0x08002c0c                Init_Usart2
+                0x08002eb4       0x2c CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+                0x08002eb4                Init_Usart2
  .text.Usart2_Enable_Recv
-                0x08002c38       0x18 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
-                0x08002c38                Usart2_Enable_Recv
+                0x08002ee0       0x18 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+                0x08002ee0                Usart2_Enable_Recv
  .text.HAL_MspInit
-                0x08002c50       0x68 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
-                0x08002c50                HAL_MspInit
- .text.main     0x08002cb8       0x80 CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
-                0x08002cb8                main
- .text.abort    0x08002d38       0x10 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-abort.o)
-                0x08002d38                abort
- .text.__errno  0x08002d48        0xc c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
-                0x08002d48                __errno
+                0x08002ef8       0x68 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+                0x08002ef8                HAL_MspInit
+ .text.main     0x08002f60       0x5c CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
+                0x08002f60                main
+ .text.abort    0x08002fbc       0x10 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-abort.o)
+                0x08002fbc                abort
+ .text.__errno  0x08002fcc        0xc c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
+                0x08002fcc                __errno
  .text.__libc_init_array
-                0x08002d54       0x48 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
-                0x08002d54                __libc_init_array
- .text.raise    0x08002d9c       0x5c c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
-                0x08002d9c                raise
- .text._kill_r  0x08002df8       0x2c c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signalr.o)
-                0x08002df8                _kill_r
+                0x08002fd8       0x48 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+                0x08002fd8                __libc_init_array
+ .text.raise    0x08003020       0x5c c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+                0x08003020                raise
+ .text._kill_r  0x0800307c       0x2c c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signalr.o)
+                0x0800307c                _kill_r
  .text._getpid_r
-                0x08002e24        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signalr.o)
-                0x08002e24                _getpid_r
+                0x080030a8        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signalr.o)
+                0x080030a8                _getpid_r
  .text.startup.register_fini
-                0x08002e28       0x14 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x08002e3c        0xc c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
-                0x08002e3c                atexit
+                0x080030ac       0x14 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x080030c0        0xc c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+                0x080030c0                atexit
  .text.__libc_fini_array
-                0x08002e48       0x2c c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
-                0x08002e48                __libc_fini_array
+                0x080030cc       0x2c c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+                0x080030cc                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x08002e74        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                0x08002e74                __retarget_lock_acquire_recursive
+                0x080030f8        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x080030f8                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08002e78        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                0x08002e78                __retarget_lock_release_recursive
+                0x080030fc        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x080030fc                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x08002e7c       0x8c c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
-                0x08002e7c                __register_exitproc
+                0x08003100       0x8c c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+                0x08003100                __register_exitproc
  *(.glue_7)
- .glue_7        0x08002f08        0x0 linker stubs
+ .glue_7        0x0800318c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08002f08        0x0 linker stubs
+ .glue_7t       0x0800318c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08002f08        0x0 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x0800318c        0x0 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
  *(.init)
- .init          0x08002f08        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
-                0x08002f08                _init
- .init          0x08002f0c        0x8 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x0800318c        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+                0x0800318c                _init
+ .init          0x08003190        0x8 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x08002f14        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
-                0x08002f14                _fini
- .fini          0x08002f18        0x8 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
-                0x08002f20                . = ALIGN (0x4)
-                0x08002f20                _etext = .
+ .fini          0x08003198        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+                0x08003198                _fini
+ .fini          0x0800319c        0x8 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+                0x080031a4                . = ALIGN (0x4)
+                0x080031a4                _etext = .
 
-.vfp11_veneer   0x08002f20        0x0
- .vfp11_veneer  0x08002f20        0x0 linker stubs
+.vfp11_veneer   0x080031a4        0x0
+ .vfp11_veneer  0x080031a4        0x0 linker stubs
 
-.v4_bx          0x08002f20        0x0
- .v4_bx         0x08002f20        0x0 linker stubs
+.v4_bx          0x080031a4        0x0
+ .v4_bx         0x080031a4        0x0 linker stubs
 
-.iplt           0x08002f20        0x0
- .iplt          0x08002f20        0x0 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x080031a4        0x0
+ .iplt          0x080031a4        0x0 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.rodata         0x08002f20       0x30
-                0x08002f20                . = ALIGN (0x4)
+.rodata         0x080031a4       0x30
+                0x080031a4                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x08002f20       0x14 CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
+ .rodata        0x080031a4       0x14 CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x08002f34       0x10 CMakeFiles/template-cpp.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x08002f34                AHBPrescTable
+                0x080031b8       0x10 CMakeFiles/template-cpp.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x080031b8                AHBPrescTable
  .rodata.APBPrescTable
-                0x08002f44        0x8 CMakeFiles/template-cpp.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                0x08002f44                APBPrescTable
+                0x080031c8        0x8 CMakeFiles/template-cpp.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                0x080031c8                APBPrescTable
  .rodata._global_impure_ptr
-                0x08002f4c        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
-                0x08002f4c                _global_impure_ptr
-                0x08002f50                . = ALIGN (0x4)
+                0x080031d0        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+                0x080031d0                _global_impure_ptr
+                0x080031d4                . = ALIGN (0x4)
 
-.ARM.extab      0x08002f50       0x18
-                0x08002f50                . = ALIGN (0x4)
+.ARM.extab      0x080031d4       0x18
+                0x080031d4                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
- .ARM.extab     0x08002f50       0x18 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(pr-support.o)
-                0x08002f68                . = ALIGN (0x4)
+ .ARM.extab     0x080031d4       0x18 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(pr-support.o)
+                0x080031ec                . = ALIGN (0x4)
 
-.ARM            0x08002f68       0xc8
-                0x08002f68                . = ALIGN (0x4)
-                0x08002f68                __exidx_start = .
+.ARM            0x080031ec       0xc8
+                0x080031ec                . = ALIGN (0x4)
+                0x080031ec                __exidx_start = .
  *(.ARM.exidx*)
  .ARM.exidx.text.main
-                0x08003020       0x10 CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
+                0x080032a4       0x10 CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
                                   0x8 (size before relaxing)
- .ARM.exidx     0x08002f68        0x8 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
- .ARM.exidx     0x08002f70       0x78 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+ .ARM.exidx     0x080031ec        0x8 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x080031f4       0x78 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
                                  0xd8 (size before relaxing)
- .ARM.exidx     0x08002fe8       0x38 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(pr-support.o)
-                0x08003030                __exidx_end = .
-                0x08003030                . = ALIGN (0x4)
+ .ARM.exidx     0x0800326c       0x38 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(pr-support.o)
+                0x080032b4                __exidx_end = .
+                0x080032b4                . = ALIGN (0x4)
 
-.rel.dyn        0x08003030        0x0
- .rel.iplt      0x08003030        0x0 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x080032b4        0x0
+ .rel.iplt      0x080032b4        0x0 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.preinit_array  0x08003030        0x0
-                0x08003030                . = ALIGN (0x4)
-                0x08003030                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x080032b4        0x0
+                0x080032b4                . = ALIGN (0x4)
+                0x080032b4                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08003030                PROVIDE (__preinit_array_end = .)
-                0x08003030                . = ALIGN (0x4)
+                0x080032b4                PROVIDE (__preinit_array_end = .)
+                0x080032b4                . = ALIGN (0x4)
 
-.init_array     0x08003030        0x8
-                0x08003030                . = ALIGN (0x4)
-                0x08003030                PROVIDE (__init_array_start = .)
+.init_array     0x080032b4        0x8
+                0x080032b4                . = ALIGN (0x4)
+                0x080032b4                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08003030        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x080032b4        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08003034        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08003038                PROVIDE (__init_array_end = .)
-                0x08003038                . = ALIGN (0x4)
+ .init_array    0x080032b8        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x080032bc                PROVIDE (__init_array_end = .)
+                0x080032bc                . = ALIGN (0x4)
 
-.fini_array     0x08003038        0x4
-                0x08003038                . = ALIGN (0x4)
-                0x08003038                PROVIDE (__fini_array_start = .)
+.fini_array     0x080032bc        0x4
+                0x080032bc                . = ALIGN (0x4)
+                0x080032bc                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08003038        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x0800303c                PROVIDE (__fini_array_end = .)
-                0x0800303c                . = ALIGN (0x4)
-                0x0800303c                _sidata = LOADADDR (.data)
+ .fini_array    0x080032bc        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x080032c0                PROVIDE (__fini_array_end = .)
+                0x080032c0                . = ALIGN (0x4)
+                0x080032c0                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x43c load address 0x0800303c
+.data           0x20000000      0x43c load address 0x080032c0
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -2499,12 +2874,12 @@ LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/
  *(.RamFunc*)
                 0x2000043c                . = ALIGN (0x4)
                 0x2000043c                _edata = .
-                0x08003478                _siccmram = LOADADDR (.ccmram)
+                0x080036fc                _siccmram = LOADADDR (.ccmram)
 
-.igot.plt       0x2000043c        0x0 load address 0x08003478
+.igot.plt       0x2000043c        0x0 load address 0x080036fc
  .igot.plt      0x2000043c        0x0 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.ccmram         0x10000000        0x0 load address 0x08003478
+.ccmram         0x10000000        0x0 load address 0x080036fc
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _sccmram = .
  *(.ccmram)
@@ -2513,7 +2888,7 @@ LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/
                 0x10000000                _eccmram = .
                 0x10000000                . = ALIGN (0x4)
 
-.bss            0x2000043c      0x214
+.bss            0x2000043c      0x260
                 0x2000043c                _sbss = .
                 0x2000043c                __bss_start__ = _sbss
  *(.bss)
@@ -2521,46 +2896,47 @@ LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/
  *(.bss*)
  .bss.uwTick    0x20000458        0x4 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
                 0x20000458                uwTick
- .bss.iwdgHandleTypeDef
-                0x2000045c        0xc CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
-                0x2000045c                iwdgHandleTypeDef
- .bss.fac_us    0x20000468        0x4 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
- .bss.last_key_down.0
-                0x2000046c        0x1 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
- *fill*         0x2000046d        0x3 
+ .bss.wwdgHandleTypeDef
+                0x2000045c       0x14 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
+                0x2000045c                wwdgHandleTypeDef
+ .bss.fac_us    0x20000470        0x4 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
+ .bss.tim3_handle
+                0x20000474       0x48 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
+                0x20000474                tim3_handle
  .bss.USART_RX_BUF
-                0x20000470       0xc8 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
-                0x20000470                USART_RX_BUF
+                0x200004bc       0xc8 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+                0x200004bc                USART_RX_BUF
  .bss.USART_RX_STATUS
-                0x20000538        0x2 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
-                0x20000538                USART_RX_STATUS
- *fill*         0x2000053a        0x2 
- .bss.buf_recv  0x2000053c       0xc8 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
-                0x2000053c                buf_recv
+                0x20000584        0x2 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+                0x20000584                USART_RX_STATUS
+ *fill*         0x20000586        0x2 
+ .bss.buf_recv  0x20000588       0xc8 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+                0x20000588                buf_recv
  .bss.uart2_handle
-                0x20000604       0x44 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
-                0x20000604                uart2_handle
+                0x20000650       0x44 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+                0x20000650                uart2_handle
  .bss.__lock___atexit_recursive_mutex
-                0x20000648        0x1 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                0x20000648                __lock___atexit_recursive_mutex
- *fill*         0x20000649        0x3 
- .bss.errno     0x2000064c        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
-                0x2000064c                errno
+                0x20000694        0x1 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x20000694                __lock___atexit_recursive_mutex
+ *fill*         0x20000695        0x3 
+ .bss.errno     0x20000698        0x4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+                0x20000698                errno
  *(COMMON)
-                0x20000650                . = ALIGN (0x4)
-                0x20000650                _ebss = .
-                0x20000650                __bss_end__ = _ebss
+                0x2000069c                . = ALIGN (0x4)
+                0x2000069c                _ebss = .
+                0x2000069c                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000650      0x600
-                0x20000650                . = ALIGN (0x8)
+                0x2000069c      0x604
+                0x200006a0                . = ALIGN (0x8)
+ *fill*         0x2000069c        0x4 
                 [!provide]                PROVIDE (end = .)
-                0x20000650                PROVIDE (_end = .)
-                0x20000850                . = (. + _Min_Heap_Size)
- *fill*         0x20000650      0x200 
-                0x20000c50                . = (. + _Min_Stack_Size)
- *fill*         0x20000850      0x400 
-                0x20000c50                . = ALIGN (0x8)
+                0x200006a0                PROVIDE (_end = .)
+                0x200008a0                . = (. + _Min_Heap_Size)
+ *fill*         0x200006a0      0x200 
+                0x20000ca0                . = (. + _Min_Stack_Size)
+ *fill*         0x200008a0      0x400 
+                0x20000ca0                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -2589,76 +2965,82 @@ LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/
  .ARM.attributes
                 0x00000153       0x2e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .ARM.attributes
-                0x00000181       0x2e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
+                0x00000181       0x2e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .ARM.attributes
-                0x000001af       0x2e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+                0x000001af       0x2e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .ARM.attributes
-                0x000001dd       0x2e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x000001dd       0x2e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .ARM.attributes
-                0x0000020b       0x2e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000020b       0x2e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .ARM.attributes
-                0x00000239       0x2e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
+                0x00000239       0x2e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .ARM.attributes
-                0x00000267       0x2e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
+                0x00000267       0x2e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
  .ARM.attributes
-                0x00000295       0x2e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
+                0x00000295       0x2e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
  .ARM.attributes
-                0x000002c3       0x2e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
+                0x000002c3       0x2e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
  .ARM.attributes
-                0x000002f1       0x2e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
+                0x000002f1       0x2e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
  .ARM.attributes
-                0x0000031f       0x2e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
+                0x0000031f       0x2e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
  .ARM.attributes
-                0x0000034d       0x2e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+                0x0000034d       0x2e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
  .ARM.attributes
-                0x0000037b       0x2e CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
+                0x0000037b       0x2e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
  .ARM.attributes
-                0x000003a9       0x1e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+                0x000003a9       0x2e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
  .ARM.attributes
-                0x000003c7       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x000003d7       0x2e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
  .ARM.attributes
-                0x000003f5       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+                0x00000405       0x2e CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
  .ARM.attributes
-                0x00000423       0x1e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(libunwind.o)
+                0x00000433       0x1e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x00000441       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(pr-support.o)
+                0x00000451       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
  .ARM.attributes
-                0x0000046f       0x1e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x0000047f       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
  .ARM.attributes
-                0x0000048d       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-abort.o)
+                0x000004ad       0x1e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(libunwind.o)
  .ARM.attributes
-                0x000004bb       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
+                0x000004cb       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(pr-support.o)
  .ARM.attributes
-                0x000004e9       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+                0x000004f9       0x1e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x00000517       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+                0x00000517       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-abort.o)
  .ARM.attributes
-                0x00000545       0x1c c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memcpy.o)
+                0x00000545       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
  .ARM.attributes
-                0x00000561       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+                0x00000573       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
  .ARM.attributes
-                0x0000058f       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signalr.o)
+                0x000005a1       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
  .ARM.attributes
-                0x000005bd       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x000005cf       0x1c c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memcpy.o)
  .ARM.attributes
-                0x000005eb       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+                0x000005eb       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
  .ARM.attributes
-                0x00000619       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+                0x00000619       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signalr.o)
  .ARM.attributes
-                0x00000647       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x00000647       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
  .ARM.attributes
-                0x00000675       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+                0x00000675       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
  .ARM.attributes
-                0x000006a3       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+                0x000006a3       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
  .ARM.attributes
-                0x000006d1       0x1e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+                0x000006d1       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .ARM.attributes
+                0x000006ff       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000072d       0x2e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x0000075b       0x1e c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
 OUTPUT(template-cpp.elf elf32-littlearm)
 LOAD linker stubs
 LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libc.a
 LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a
 LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a
 
-.debug_info     0x00000000     0xb970
+.debug_info     0x00000000    0x12396
  .debug_info    0x00000000      0x12f CMakeFiles/template-cpp.elf.dir/Core/Src/stm32f4xx_it.c.obj
  .debug_info    0x0000012f      0x399 CMakeFiles/template-cpp.elf.dir/Core/Src/system_stm32f4xx.c.obj
  .debug_info    0x000004c8       0x22 CMakeFiles/template-cpp.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
@@ -2666,20 +3048,23 @@ LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/
  .debug_info    0x00000f54     0x10ce CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_info    0x00002022      0xb3f CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_info    0x00002b61      0x7cc CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_info    0x0000332d      0x20c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
- .debug_info    0x00003539      0x7bb CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_info    0x00003cf4      0xb1f CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_info    0x00004813     0x424e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_info    0x00008a61      0x916 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
- .debug_info    0x00009377      0x22d CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
- .debug_info    0x000095a4      0x26e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
- .debug_info    0x00009812      0x6b6 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
- .debug_info    0x00009ec8      0x45c CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
- .debug_info    0x0000a324      0x5b7 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
- .debug_info    0x0000a8db      0xe34 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
- .debug_info    0x0000b70f      0x261 CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
+ .debug_info    0x0000332d      0x7bb CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_info    0x00003ae8      0xb1f CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_info    0x00004607     0x3d5b CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_info    0x00008362     0x1ade CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_info    0x00009e40     0x424e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_info    0x0000e08e      0x292 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
+ .debug_info    0x0000e320      0x916 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
+ .debug_info    0x0000ec36      0x7bf CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
+ .debug_info    0x0000f3f5      0x26e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
+ .debug_info    0x0000f663      0x6b6 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
+ .debug_info    0x0000fd19      0x45c CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
+ .debug_info    0x00010175      0x5b7 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
+ .debug_info    0x0001072c      0xc85 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
+ .debug_info    0x000113b1      0xe34 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+ .debug_info    0x000121e5      0x1b1 CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
 
-.debug_abbrev   0x00000000     0x1fd5
+.debug_abbrev   0x00000000     0x274b
  .debug_abbrev  0x00000000       0x7e CMakeFiles/template-cpp.elf.dir/Core/Src/stm32f4xx_it.c.obj
  .debug_abbrev  0x0000007e      0x119 CMakeFiles/template-cpp.elf.dir/Core/Src/system_stm32f4xx.c.obj
  .debug_abbrev  0x00000197       0x12 CMakeFiles/template-cpp.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
@@ -2687,20 +3072,23 @@ LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/
  .debug_abbrev  0x0000039b      0x36a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_abbrev  0x00000705      0x2c2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_abbrev  0x000009c7      0x1ef CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_abbrev  0x00000bb6      0x118 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
- .debug_abbrev  0x00000cce      0x1c0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_abbrev  0x00000e8e      0x28a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_abbrev  0x00001118      0x2fd CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_abbrev  0x00001415      0x198 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
- .debug_abbrev  0x000015ad      0x128 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
- .debug_abbrev  0x000016d5      0x13d CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
- .debug_abbrev  0x00001812      0x191 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
- .debug_abbrev  0x000019a3      0x14e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
- .debug_abbrev  0x00001af1      0x1ce CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
- .debug_abbrev  0x00001cbf      0x217 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
- .debug_abbrev  0x00001ed6       0xff CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
+ .debug_abbrev  0x00000bb6      0x1c0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_abbrev  0x00000d76      0x28a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_abbrev  0x00001000      0x22b CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_abbrev  0x0000122b      0x241 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x0000146c      0x2fd CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_abbrev  0x00001769      0x19b CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
+ .debug_abbrev  0x00001904      0x198 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
+ .debug_abbrev  0x00001a9c      0x1c6 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
+ .debug_abbrev  0x00001c62      0x13d CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
+ .debug_abbrev  0x00001d9f      0x191 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
+ .debug_abbrev  0x00001f30      0x14e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
+ .debug_abbrev  0x0000207e      0x1ce CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
+ .debug_abbrev  0x0000224c      0x212 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
+ .debug_abbrev  0x0000245e      0x217 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+ .debug_abbrev  0x00002675       0xd6 CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
 
-.debug_aranges  0x00000000      0x7e0
+.debug_aranges  0x00000000      0xd88
  .debug_aranges
                 0x00000000       0x60 CMakeFiles/template-cpp.elf.dir/Core/Src/stm32f4xx_it.c.obj
  .debug_aranges
@@ -2716,31 +3104,37 @@ LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/
  .debug_aranges
                 0x000002e8       0x58 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
  .debug_aranges
-                0x00000340       0x28 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
+                0x00000340       0x60 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .debug_aranges
-                0x00000368       0x60 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+                0x000003a0       0x88 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
  .debug_aranges
-                0x000003c8       0x88 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x00000428      0x3d0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
  .debug_aranges
-                0x00000450      0x200 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x000007f8      0x168 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .debug_aranges
-                0x00000650       0x48 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
+                0x00000960      0x200 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .debug_aranges
-                0x00000698       0x28 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
+                0x00000b60       0x40 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
  .debug_aranges
-                0x000006c0       0x30 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
+                0x00000ba0       0x48 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
  .debug_aranges
-                0x000006f0       0x28 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
+                0x00000be8       0x40 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
  .debug_aranges
-                0x00000718       0x20 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
+                0x00000c28       0x30 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
  .debug_aranges
-                0x00000738       0x40 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
+                0x00000c58       0x28 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
  .debug_aranges
-                0x00000778       0x48 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+                0x00000c80       0x20 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
  .debug_aranges
-                0x000007c0       0x20 CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
+                0x00000ca0       0x40 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
+ .debug_aranges
+                0x00000ce0       0x40 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
+ .debug_aranges
+                0x00000d20       0x48 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+ .debug_aranges
+                0x00000d68       0x20 CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
 
-.debug_ranges   0x00000000      0x748
+.debug_ranges   0x00000000      0xcc0
  .debug_ranges  0x00000000       0x50 CMakeFiles/template-cpp.elf.dir/Core/Src/stm32f4xx_it.c.obj
  .debug_ranges  0x00000050       0x18 CMakeFiles/template-cpp.elf.dir/Core/Src/system_stm32f4xx.c.obj
  .debug_ranges  0x00000068       0x20 CMakeFiles/template-cpp.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
@@ -2748,20 +3142,23 @@ LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/
  .debug_ranges  0x00000178       0xf8 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_ranges  0x00000270       0x80 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_ranges  0x000002f0       0x48 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_ranges  0x00000338       0x18 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
- .debug_ranges  0x00000350       0x50 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_ranges  0x000003a0       0x90 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_ranges  0x00000430      0x208 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_ranges  0x00000638       0x38 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
- .debug_ranges  0x00000670       0x18 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
- .debug_ranges  0x00000688       0x20 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
- .debug_ranges  0x000006a8       0x18 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
- .debug_ranges  0x000006c0       0x10 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
- .debug_ranges  0x000006d0       0x30 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
- .debug_ranges  0x00000700       0x38 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
- .debug_ranges  0x00000738       0x10 CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
+ .debug_ranges  0x00000338       0x50 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_ranges  0x00000388       0x90 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_ranges  0x00000418      0x3c0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_ranges  0x000007d8      0x158 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_ranges  0x00000930      0x208 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_ranges  0x00000b38       0x30 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
+ .debug_ranges  0x00000b68       0x38 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
+ .debug_ranges  0x00000ba0       0x30 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
+ .debug_ranges  0x00000bd0       0x20 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
+ .debug_ranges  0x00000bf0       0x18 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
+ .debug_ranges  0x00000c08       0x10 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
+ .debug_ranges  0x00000c18       0x30 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
+ .debug_ranges  0x00000c48       0x30 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
+ .debug_ranges  0x00000c78       0x38 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+ .debug_ranges  0x00000cb0       0x10 CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
 
-.debug_line     0x00000000     0x99a9
+.debug_line     0x00000000    0x105ba
  .debug_line    0x00000000      0x1bd CMakeFiles/template-cpp.elf.dir/Core/Src/stm32f4xx_it.c.obj
  .debug_line    0x000001bd      0x239 CMakeFiles/template-cpp.elf.dir/Core/Src/system_stm32f4xx.c.obj
  .debug_line    0x000003f6       0xa8 CMakeFiles/template-cpp.elf.dir/Core/Startup/startup_stm32f429igtx.s.obj
@@ -2769,20 +3166,23 @@ LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/
  .debug_line    0x00000a97      0x7d4 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_line    0x0000126b      0xe5e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_line    0x000020c9      0x72f CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_line    0x000027f8      0x296 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
- .debug_line    0x00002a8e      0x50e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_line    0x00002f9c      0xb48 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_line    0x00003ae4     0x464a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_line    0x0000812e      0x37a CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
- .debug_line    0x000084a8      0x22e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
- .debug_line    0x000086d6      0x2ca CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
- .debug_line    0x000089a0      0x39d CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
- .debug_line    0x00008d3d      0x1e1 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
- .debug_line    0x00008f1e      0x2f6 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
- .debug_line    0x00009214      0x464 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
- .debug_line    0x00009678      0x331 CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
+ .debug_line    0x000027f8      0x50e CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_line    0x00002d06      0xb48 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_line    0x0000384e     0x4adb CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_line    0x00008329     0x1cff CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_line    0x0000a028     0x464a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_line    0x0000e672      0x2aa CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
+ .debug_line    0x0000e91c      0x37a CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
+ .debug_line    0x0000ec96      0x30d CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
+ .debug_line    0x0000efa3      0x2ca CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
+ .debug_line    0x0000f26d      0x39d CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
+ .debug_line    0x0000f60a      0x1e1 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
+ .debug_line    0x0000f7eb      0x2f6 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
+ .debug_line    0x0000fae1      0x369 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
+ .debug_line    0x0000fe4a      0x464 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+ .debug_line    0x000102ae      0x30c CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
 
-.debug_str      0x00000000     0x2c62
+.debug_str      0x00000000     0x447b
  .debug_str     0x00000000      0x233 CMakeFiles/template-cpp.elf.dir/Core/Src/stm32f4xx_it.c.obj
                                 0x267 (size before relaxing)
  .debug_str     0x00000233      0x1c6 CMakeFiles/template-cpp.elf.dir/Core/Src/system_stm32f4xx.c.obj
@@ -2793,34 +3193,40 @@ LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/
                                 0xc44 (size before relaxing)
  .debug_str     0x00000d9e      0x4d2 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
                                 0xcc8 (size before relaxing)
- .debug_str     0x00001270      0x55a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_str     0x00001270      0x548 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
                                 0x7ae (size before relaxing)
- .debug_str     0x000017ca      0x1fe CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_str     0x000017b8      0x1fe CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
                                 0x52b (size before relaxing)
- .debug_str     0x000019c8       0xc0 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
-                                0x2c0 (size before relaxing)
- .debug_str     0x00001a88      0x184 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_str     0x000019b6      0x184 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
                                 0x516 (size before relaxing)
- .debug_str     0x00001c0c      0x308 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_str     0x00001b3a      0x308 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
                                 0x751 (size before relaxing)
- .debug_str     0x00001f14      0x823 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_str     0x00001e42     0x11b8 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                               0x16f1 (size before relaxing)
+ .debug_str     0x00002ffa      0x5b4 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                                0xef2 (size before relaxing)
+ .debug_str     0x000035ae      0x817 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
                                 0xd91 (size before relaxing)
- .debug_str     0x00002737       0xa6 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
+ .debug_str     0x00003dc5      0x100 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
+                                0x302 (size before relaxing)
+ .debug_str     0x00003ec5       0xa6 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
                                 0x9a3 (size before relaxing)
- .debug_str     0x000027dd       0x67 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
-                                0x2a0 (size before relaxing)
- .debug_str     0x00002844       0x75 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
+ .debug_str     0x00003f6b       0x88 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
+                                0x991 (size before relaxing)
+ .debug_str     0x00003ff3       0x6e CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
                                 0x287 (size before relaxing)
- .debug_str     0x000028b9       0xc3 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
+ .debug_str     0x00004061       0xc3 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
                                 0x448 (size before relaxing)
- .debug_str     0x0000297c       0x4f CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
+ .debug_str     0x00004124       0x4f CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
                                 0x3b6 (size before relaxing)
- .debug_str     0x000029cb       0xa7 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
+ .debug_str     0x00004173       0xa7 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
                                 0x4f0 (size before relaxing)
- .debug_str     0x00002a72       0xd8 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+ .debug_str     0x0000421a       0x71 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
+                                0xe56 (size before relaxing)
+ .debug_str     0x0000428b       0xd8 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
                                 0xe70 (size before relaxing)
- .debug_str     0x00002b4a      0x118 CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
-                                0x2d6 (size before relaxing)
+ .debug_str     0x00004363      0x118 CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
+                                0x257 (size before relaxing)
 
 .comment        0x00000000       0x49
  .comment       0x00000000       0x49 CMakeFiles/template-cpp.elf.dir/Core/Src/stm32f4xx_it.c.obj
@@ -2830,67 +3236,76 @@ LOAD c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/
  .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
  .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
  .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
- .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
  .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
  .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
  .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
  .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
  .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
  .comment       0x00000049       0x4a CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
 
-.debug_frame    0x00000000     0x19f8
+.debug_frame    0x00000000     0x2a10
  .debug_frame   0x00000000       0xa8 CMakeFiles/template-cpp.elf.dir/Core/Src/stm32f4xx_it.c.obj
  .debug_frame   0x000000a8       0x30 CMakeFiles/template-cpp.elf.dir/Core/Src/system_stm32f4xx.c.obj
  .debug_frame   0x000000d8      0x20c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_frame   0x000002e4      0x148 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_frame   0x0000042c      0x188 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_frame   0x000005b4       0xd8 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_frame   0x0000068c       0x44 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
- .debug_frame   0x000006d0       0xf4 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_frame   0x000007c4      0x16c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_frame   0x00000930      0x5cc CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_frame   0x00000efc       0xac CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
- .debug_frame   0x00000fa8       0x40 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
- .debug_frame   0x00000fe8       0x60 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
- .debug_frame   0x00001048       0x4c CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
- .debug_frame   0x00001094       0x30 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
- .debug_frame   0x000010c4       0x74 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
- .debug_frame   0x00001138       0xa0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
- .debug_frame   0x000011d8       0x2c CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
- .debug_frame   0x00001204       0x2c c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x00001230       0x34 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
- .debug_frame   0x00001264      0x2d4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
- .debug_frame   0x00001538      0x104 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(pr-support.o)
- .debug_frame   0x0000163c       0x28 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-abort.o)
- .debug_frame   0x00001664       0x20 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
- .debug_frame   0x00001684       0x2c c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
- .debug_frame   0x000016b0      0x114 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
- .debug_frame   0x000017c4       0x3c c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signalr.o)
- .debug_frame   0x00001800       0x5c c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x0000185c       0x20 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
- .debug_frame   0x0000187c       0x34 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
- .debug_frame   0x000018b0       0xb0 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
- .debug_frame   0x00001960       0x64 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
- .debug_frame   0x000019c4       0x34 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+ .debug_frame   0x0000068c       0xf4 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_frame   0x00000780      0x16c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_frame   0x000008ec      0xb04 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_frame   0x000013f0      0x40c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_frame   0x000017fc      0x5cc CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_frame   0x00001dc8       0x74 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
+ .debug_frame   0x00001e3c       0xac CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
+ .debug_frame   0x00001ee8       0x90 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
+ .debug_frame   0x00001f78       0x60 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
+ .debug_frame   0x00001fd8       0x4c CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
+ .debug_frame   0x00002024       0x30 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/led/led.c.obj
+ .debug_frame   0x00002054       0x74 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
+ .debug_frame   0x000020c8       0x84 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
+ .debug_frame   0x0000214c       0xa0 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+ .debug_frame   0x000021ec       0x30 CMakeFiles/template-cpp.elf.dir/User/main.cpp.obj
+ .debug_frame   0x0000221c       0x2c c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00002248       0x34 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000227c      0x2d4 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(unwind-arm.o)
+ .debug_frame   0x00002550      0x104 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(pr-support.o)
+ .debug_frame   0x00002654       0x28 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-abort.o)
+ .debug_frame   0x0000267c       0x20 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-errno.o)
+ .debug_frame   0x0000269c       0x2c c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+ .debug_frame   0x000026c8      0x114 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signal.o)
+ .debug_frame   0x000027dc       0x3c c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-signalr.o)
+ .debug_frame   0x00002818       0x5c c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00002874       0x20 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+ .debug_frame   0x00002894       0x34 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+ .debug_frame   0x000028c8       0xb0 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+ .debug_frame   0x00002978       0x64 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-reent.o)
+ .debug_frame   0x000029dc       0x34 c:/tools/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
 
-.debug_loc      0x00000000     0x7071
+.debug_loc      0x00000000     0xdeb2
  .debug_loc     0x00000000      0x158 CMakeFiles/template-cpp.elf.dir/Core/Src/system_stm32f4xx.c.obj
  .debug_loc     0x00000158      0x141 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
  .debug_loc     0x00000299      0x744 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
  .debug_loc     0x000009dd      0xbf9 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_loc     0x000015d6      0x520 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_loc     0x00001af6       0x86 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj
- .debug_loc     0x00001b7c      0x228 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_loc     0x00001da4      0x58c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_loc     0x00002330     0x49ab CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_loc     0x00006cdb       0x25 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
- .debug_loc     0x00006d00       0x4a CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Iwdog/Iwdg.c.obj
- .debug_loc     0x00006d4a      0x157 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
- .debug_loc     0x00006ea1       0x42 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
- .debug_loc     0x00006ee3       0xb8 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
- .debug_loc     0x00006f9b       0xd6 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj
+ .debug_loc     0x00001af6      0x228 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_loc     0x00001d1e      0x58c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_loc     0x000022aa     0x506c CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_loc     0x00007316     0x1cd7 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_loc     0x00008fed     0x49ab CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_loc     0x0000d998       0xa6 CMakeFiles/template-cpp.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
+ .debug_loc     0x0000da3e       0x25 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Exti/exti.c.obj
+ .debug_loc     0x0000da63       0xb9 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/Wwdg/wwdg.c.obj
+ .debug_loc     0x0000db1c      0x157 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/delay/delay.c.obj
+ .debug_loc     0x0000dc73       0x42 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/key/key.c.obj
+ .debug_loc     0x0000dcb5       0xb8 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/sys/sys.c.obj
+ .debug_loc     0x0000dd6d       0x6f CMakeFiles/template-cpp.elf.dir/User/SYSTEM/timer/timer.c.obj
+ .debug_loc     0x0000dddc       0xd6 CMakeFiles/template-cpp.elf.dir/User/SYSTEM/usart/Usart.c.obj

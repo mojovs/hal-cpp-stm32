@@ -8,6 +8,8 @@ extern "C" {
 #include "exti.h"
 #include "Iwdg.h"
 #include "stm32f4xx_hal_iwdg.h"
+#include "Wwdg.h"
+#include "timer.h"
 }
 int main(void) {
     HAL_Init();
@@ -19,18 +21,8 @@ int main(void) {
     int a = 0x12345678;
     Init_Usart2();
     Usart2_Enable_Recv();
-    iwdg_init(IWDG_PRESCALER_64,500);
-    LED_0_VAL=0;
-    LED_1_VAL=0;
+    timer3_test();
 
-    while (1) {
-        if(Key_Scan(KEY_MODE_CONTINIOUS)==KEY_ID_WK){
-
-            iwdg_feed();
-        }
-        delay_ms(10);
-
-    }
 
     return 0;
 }

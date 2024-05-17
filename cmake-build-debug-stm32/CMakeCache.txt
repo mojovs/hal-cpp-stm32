@@ -124,7 +124,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=E:/code/c/stm32/clion/template-cpp/cmake-build-debug-stm32/CMakeFiles/pkgRedirects
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/template-cpp
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/template
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Tools/arm-gnu-toolchain/bin/arm-none-eabi-ld.exe
@@ -237,6 +237,15 @@ template-cpp_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 template-cpp_SOURCE_DIR:STATIC=E:/code/c/stm32/clion/template-cpp
+
+//Value Computed by CMake
+template_BINARY_DIR:STATIC=E:/code/c/stm32/clion/template-cpp/cmake-build-debug-stm32
+
+//Value Computed by CMake
+template_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+template_SOURCE_DIR:STATIC=E:/code/c/stm32/clion/template-cpp
 
 
 ########################
