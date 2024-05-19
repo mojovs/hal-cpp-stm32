@@ -8,10 +8,11 @@ include dir:E:/code/c/stm32/clion/template-cpp/User//SYSTEM/Wwdg
 include dir:E:/code/c/stm32/clion/template-cpp/User//SYSTEM/delay
 include dir:E:/code/c/stm32/clion/template-cpp/User//SYSTEM/key
 include dir:E:/code/c/stm32/clion/template-cpp/User//SYSTEM/led
+include dir:E:/code/c/stm32/clion/template-cpp/User//SYSTEM/pwm
 include dir:E:/code/c/stm32/clion/template-cpp/User//SYSTEM/sys
 include dir:E:/code/c/stm32/clion/template-cpp/User//SYSTEM/sysclock
 include dir:E:/code/c/stm32/clion/template-cpp/User//SYSTEM/timer
 include dir:E:/code/c/stm32/clion/template-cpp/User//SYSTEM/usart
--- Configuring done (0.4s)
+-- Configuring done (0.3s)
 -- Generating done (0.0s)
 -- Build files have been written to: E:/code/c/stm32/clion/template-cpp/cmake-build-debug-stm32

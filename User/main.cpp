@@ -10,6 +10,7 @@ extern "C" {
 #include "stm32f4xx_hal_iwdg.h"
 #include "Wwdg.h"
 #include "timer.h"
+#include "pwm.h"
 }
 int main(void) {
     HAL_Init();
@@ -21,8 +22,6 @@ int main(void) {
     int a = 0x12345678;
     Init_Usart2();
     Usart2_Enable_Recv();
-    timer3_test();
-
-
+    pwm3_ch4_test();
     return 0;
 }
