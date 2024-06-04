@@ -11,6 +11,8 @@ extern "C" {
 #include "Wwdg.h"
 #include "timer.h"
 #include "pwm.h"
+#include "rtc.h"
+#include "retarget.h"
 }
 int main(void) {
     HAL_Init();
@@ -22,6 +24,7 @@ int main(void) {
     int a = 0x12345678;
     Init_Usart2();
     Usart2_Enable_Recv();
-    pwm3_ch4_test();
+    RetargetInit(&uart2_handle);
+    rtc_test();
     return 0;
 }

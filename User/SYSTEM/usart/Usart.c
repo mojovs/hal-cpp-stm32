@@ -5,10 +5,12 @@
 #include "Usart.h"
 
 UART_HandleTypeDef uart2_handle;
+UART_HandleTypeDef *p_uart2_handle;
 u16 USART_RX_STATUS = 0;      //uart接受状态标志
 unsigned char buf_recv[RECV_SIZE];
 unsigned char buf_send[SEND_SIZE];
 u8 USART_RX_BUF[USART_REC_LEN];
+
 
 //usart 中断跳转到这
 void USART2_IRQHandler(void) {

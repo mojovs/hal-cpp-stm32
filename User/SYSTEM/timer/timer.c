@@ -41,8 +41,8 @@ void HAL_TIM_Base_MspInit(TIM_HandleTypeDef *htim){
 void TIM3_IRQHandler(void){
     HAL_TIM_IRQHandler(&tim3_handle);
 }
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
-    if(htim == &tim3_handle){
-        LED_1_VAL=!LED_1_VAL;
-    }
-}
+//void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
+//    if(htim == &tim3_handle){
+//        LED_1_VAL=!LED_1_VAL;
+//    }
+//}
